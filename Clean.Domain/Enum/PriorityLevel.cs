@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Clean.Domain.Enum
 {
-    internal class PriorityLevel
+    public enum PriorityLevel
     {
+        high=3,
+        medium=2,
+        low=1
     }
 }

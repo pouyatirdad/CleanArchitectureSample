@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Clean.Domain.Common
 {
-    internal class BaseEntity
+    public class BaseEntity
     {
+        public int Id { get; set; }
+        public DateTime CreateTime { get; set; }
+        public bool Deleted { get; set; }
     }
 }
