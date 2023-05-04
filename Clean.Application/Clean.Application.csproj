@@ -7,10 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="TodoItems\Commands\" />
-    <Folder Include="TodoItems\Queries\" />
-    <Folder Include="TodoLists\Commands\" />
-    <Folder Include="TodoLists\Queries\" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean.Domain\Clean.Domain.csproj" />
+    <ProjectReference Include="..\Clean.Infrastructure\Clean.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
