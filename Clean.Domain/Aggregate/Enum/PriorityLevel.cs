@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clean.Domain.Enum
+namespace Clean.Domain.Aggregate.Enum
 {
     public enum PriorityLevel
     {
-        high=3,
-        medium=2,
-        low=1
+        high = 3,
+        medium = 2,
+        low = 1
     }
 }

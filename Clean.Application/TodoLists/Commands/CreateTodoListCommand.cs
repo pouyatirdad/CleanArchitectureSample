@@ -1,4 +1,4 @@
-﻿using Clean.Domain.Entities;
+﻿using Clean.Domain.Aggregate.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;

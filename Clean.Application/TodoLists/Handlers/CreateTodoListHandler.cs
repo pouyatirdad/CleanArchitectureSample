@@ -1,4 +1,4 @@
-﻿using Clean.Application.TodoItems.Commands;
+﻿using Clean.Application.TodoLists.Commands;
 using Clean.Infrastructure.Persistence;
 using MediatR;
 using System;
@@ -20,7 +20,7 @@ namespace Clean.Application.TodoLists.Handlers
         public async Task Handle(CreateTodoListCommand request, CancellationToken cancellationToken)
         {
 
-            _context.TodoLists.Add(request.todoitem);
+            _context.TodoLists.Add(request.todoList);
             return;
         }
     }

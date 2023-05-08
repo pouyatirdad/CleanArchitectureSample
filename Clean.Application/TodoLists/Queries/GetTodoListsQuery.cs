@@ -1,4 +1,4 @@
-﻿using Clean.Domain.Entities;
+﻿using Clean.Domain.Aggregate.Entities;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Clean.Application.TodoLists.Queries
 {
-    
+
     public record GetTodoListsQuery:IRequest<List<TodoList>>
     {
 
